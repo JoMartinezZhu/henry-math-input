@@ -1,0 +1,62 @@
+{
+  "name": "henry-math-input",
+  "version": "1.0.0",
+  "keywords": [
+    "math",
+    "input",
+    "webpack1.13.0",
+    "react16"
+  ],
+  "author": {
+    "name": "learnta"
+  },
+  "main": "dist/app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoMartinezZhu/henry-math-input.git"
+  },
+  "scripts": {
+    "watch": "webpack --config webpack.config.dev.js --watch",
+    "build": "babel src -d dist"
+  },
+  "build": "babel src -d dist",
+  "dependencies": {
+    "aphrodite": "^0.2.0",
+    "create-react-class": "^15.6.3",
+    "jquery": "^1.12.2",
+    "object.entries": "1.0.4",
+    "object.values": "1.0.4",
+    "performance-now": "^0.2.0",
+    "prop-types": "^15.6.2",
+    "react": "16.3.2",
+    "react-addons-create-fragment": "15.6.2",
+    "react-addons-pure-render-mixin": "15.6.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "5.0.6",
+    "react-transition-group": "2.4.0",
+    "redux": "^3.7.2"
+  },
+  "description": "## math-input",
+  "devDependencies": {
+    "babel-cli": "^6.8.0",
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-register": "^6.7.2",
+    "exports-loader": "^0.6.3",
+    "jquery": "1.12.4",
+    "jsdom": "^8.4.0",
+    "mocha": "^2.4.5",
+    "mocha-jsdom": "^1.1.0",
+    "react-dom": "^15.4.1",
+    "webpack": "^1.13.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "license": "MIT"
+}
