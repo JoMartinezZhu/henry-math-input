@@ -4,8 +4,10 @@
  * from MathQuill changes.
  */
 
-const $ = require('jquery');
-// TODO(kevinb) allow test code to use const MathQuill = require('mathquill');
+// const $ = require('jquery');
+const $ = window.$;
+
+// allow test code to use const MathQuill = require('mathquill');
 const MathQuill = window.MathQuill;
 
 const Keys = require('../../data/keys');
