@@ -3,9 +3,9 @@
 // const React = require('react');
 // const ReactDOM = require('react-dom');
 
-require('../mathquill/mathquill');
+// require('../mathquill/mathquill')
 
-// const MathInput = require('./components/app');
+var MathInput = require('./components/app');
 
 // var inputlist = document.querySelectorAll("div.math-input");
 
