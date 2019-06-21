@@ -5,8 +5,7 @@
  */
 
 // const $ = require('jquery');
-const $ = window.$;
-
+// const $ = window.$;
 // allow test code to use const MathQuill = require('mathquill');
 const MathQuill = window.MathQuill;
 

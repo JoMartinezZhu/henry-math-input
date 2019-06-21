@@ -1,6 +1,6 @@
 {
   "name": "henry-math-input",
-  "version": "2.0.1-beta.3",
+  "version": "2.0.1-beta.5",
   "keywords": [
     "math",
     "input",
@@ -24,7 +24,6 @@
   "dependencies": {
     "aphrodite": "^0.2.0",
     "create-react-class": "^15.6.3",
-    "jquery": "^1.12.2",
     "object.entries": "1.0.4",
     "object.values": "1.0.4",
     "performance-now": "^0.2.0",

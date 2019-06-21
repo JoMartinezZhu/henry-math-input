@@ -17,8 +17,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
  */
 
 // const $ = require('jquery');
-var $ = window.$;
-
+// const $ = window.$;
 // allow test code to use const MathQuill = require('mathquill');
 var MathQuill = window.MathQuill;
 
